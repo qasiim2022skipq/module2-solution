@@ -1,0 +1,116 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+    background-color: #daf5d6;
+}
+.TopSect{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:4vh;
+    margin-top: 70px;
+}
+/*
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.item_container{
+    width: 30%;
+    height: 170px;
+    background: yellow;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+*/
+
+.container{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.item_container1 p{
+    width: 33%;
+    height: 150px;
+    border: 2px solid red;
+    margin: 5px;
+    float: left;
+    
+    border: 3px solid blue;
+    background-color: #9A9CE9;
+    width: 520px;
+    height: 170px;
+    padding: 40px;
+    margin: 20px 20px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+   
+
+ 
+h2{
+    
+    background-color: grey;
+}
+.item_container2 p{
+    
+    
+    width: 33%;
+    height: 150px;
+    border: 2px solid red;
+    margin: 5px;
+    float: left;
+    
+    border: 3px solid blue;
+    background-color: #9A9CE9;
+    width: 520px;
+    height: 170px;
+    padding: 40px;
+    margin: 20px 20px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.item_container3 p{
+    
+   
+    width: 33%;
+    height: 150px;
+    border: 2px solid red;
+    margin: 5px;
+    float: left;
+    
+    border: 3px solid blue;
+    background-color: #9A9CE9;
+    width: 520px;
+    height: 170px;
+    padding: 40px;
+    margin: 20px 20px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+ /* 768px and 991px for tablet */
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* For mobile phones: */
+    [class*="item-container3"] {
+      width: 100%;
+    }
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="item-container"] {
+      width: 100%;
+    }
+  }
