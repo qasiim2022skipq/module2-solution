@@ -11,23 +11,34 @@ body{
     justify-content: center;
     align-items: center;
 }
-/*
+
 .TopSect{
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     font-size:4vh;
-    margin-top: 70px;
+    display: flex;
+    vertical-align: top;
+    top: 10px;
+    justify-content: center;
+    align-self: center;
+    /* 
+    margin-top: 250px;
+    margin-left: 700px;
+    margin-bottom: 700px;
+    box-sizing: border-box;
+    */
 }
-*/
 
-.container section{
+/*
+.container section p{
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     font-size:4vh;
-    
+    margin-bottom: 20px;
 }
+*/
 /*
 .container{
     width: 100%;
@@ -173,6 +184,7 @@ p{
         width: 25%;
     }
  }
+ 
  /* 768px and 991px for tablet */
  @media screen and (min-device-width: 768px) and (max-device-width: 991px){
     
